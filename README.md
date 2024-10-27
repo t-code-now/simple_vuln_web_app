@@ -31,7 +31,7 @@ This web application includes vulnerabilities for training purposes, including:
    Run the following command to pull the Docker image from Docker Hub:
 
    ```bash
-   docker pull yourusername/simple_vuln_web_app:latest
+   docker pull tcodenow/simple_vuln_web_app
    ```
 
 2. **Run the Docker Container**
@@ -39,7 +39,7 @@ This web application includes vulnerabilities for training purposes, including:
    Use the following command to start the container with a specific name (`t-code-now`), mapping it to port 5000 on your machine:
 
    ```bash
-   sudo docker run -d -p 5000:5000 --name t-code-now yourusername/simple_vuln_web_app:latest
+   sudo docker run -d -p 5000:5000 --name t-code-now tcodenow/simple_vuln_web_app:latest
    ```
 
    This command will:
